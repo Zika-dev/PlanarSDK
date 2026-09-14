@@ -51,7 +51,7 @@ def create_project(name):
 
     print('Copying template...')
 
-    shutil.copytree(planar_path / 'TemplateGame-backup', proj_dir)
+    shutil.copytree(planar_path / 'TemplateGame', proj_dir)
 
     print(Fore.GREEN + f'Copied template to {proj_dir}' + Style.RESET_ALL)
 
